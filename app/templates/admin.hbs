@@ -1,6 +1,13 @@
 <h1>Admin Page</h1>
 
-<LinkTo @route='admin.categories'>Categories</LinkTo>
+<ul class="nav nav-pills">
+	<li class="nav-item">
+		<LinkTo @route='admin.categories' class="nav-link" @tagName="a">Categories</LinkTo>
+	</li>
+	<li class="nav-item">
+		<LinkTo @route='admin.products' class="nav-link" @tagName="a">Products</LinkTo>
+	</li>
+</ul>
 
 <hr>
 
